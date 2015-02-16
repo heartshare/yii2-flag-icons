@@ -28,4 +28,10 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \tugmaks\FlagIcons\AutoloadExample::widget(); ?>```
+use \tugmaks\FlagIcons\FlagIcon as FI;
+<?= FI::widget([
+    'size'=> FI::64,
+    'iso'=>'RU' // Alpha 2 code
+]); ?>```
+
+Images source  - http://www.icondrawer.com/flag-icons.php
