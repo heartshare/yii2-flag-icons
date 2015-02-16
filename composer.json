@@ -1,0 +1,21 @@
+{
+    "name": "tugmaks/yii2-flag-icons",
+    "description": "yii2 world flag widget",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maxim Tugaev",
+            "email": "tugmaks@yandex.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "tugmaks\\FlagIcons\\": ""
+        }
+    }
+}
