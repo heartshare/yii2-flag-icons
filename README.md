@@ -31,7 +31,11 @@ Once the extension is installed, simply use it in your code by  :
 use \tugmaks\FlagIcons\FlagIcon as FI;
 <?= FI::widget([
     'size'=> FI::64,
-    'iso'=>'RU' // Alpha 2 code
+    'iso'=>'RU', // Alpha 2 code
+    'options'=>[
+                'alt'=>'',
+                'title=>'',
+                ],
 ]); ?>```
 
 Images source  - http://www.icondrawer.com/flag-icons.php
